@@ -208,6 +208,8 @@
 /* register form */
 .auth-form {
     width: 500px;
+    z-index: 2;
+
 }
 
 .auth-form__container{
