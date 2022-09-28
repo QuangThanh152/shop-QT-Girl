@@ -1,0 +1,108 @@
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header-icon-menu-mobile {
+        display: block;
+        margin: 0 15px;
+    }
+    .header-search-mobile {
+        display: block;
+        margin-top: 4px;
+        margin-left: -20px;
+    }
+    .header__logo-img {
+        margin-left: 25px;
+        width: 200px;
+    }
+    .header-with-search {
+        justify-content: space-between;
+    }
+    .header-with-search {
+        margin: 0;
+    }
+    .header__cart {
+        margin-right: 20px;
+    }
+    .header__search {
+        position: fixed;
+        top: var(--header-height);
+        z-index: 2;
+        left: 0;
+        width: 100%;
+        padding: 0 16px;
+        height: var(--header-sort-bar-height);
+        box-shadow: 0 1px 3px rgb(0 0 0 / 7%);
+    }
+    @keyframes search__mobile {
+    from {
+
+    }
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header__logo {
+        display: none;
+    }
+}
+
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-height : 75px;
+        --navbar-height : 0px;
+    }
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header {
+        height: 75px;
+        position: fixed;
+        z-index: 10;
+        right: 0;
+        left: 0;    
+        top: 0;
+    }
+    .container {
+        margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+    }
+    .header-sort-bar {
+        display: flex;
+    }
+    .home-product-item__free-ship {
+        display: none;
+    }
+    .header__cart {
+        width: 75px;
+        text-align: right;
+    }
+    .header__cart-notice {
+        right: -12px;
+        top: -9px;
+    }
+    .header__cart--list {
+        position: fixed;
+        top: 75px;
+        right: 0;
+        width: 100%;
+        padding: 0 calc((100% - 644px) / 2);
+    }
+    .header__cart--list::after {
+        display: none;
+    }
+    .header__cart-item-remove-on-mb-tl  {
+        display: block;
+    }
+}
+
+@media (max-width: 1240px) {
+    .home-product-item__free-ship {
+        padding-left: 102px;
+    }
+}

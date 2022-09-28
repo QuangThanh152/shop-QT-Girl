@@ -1,0 +1,12 @@
+/* mobile */
+@media (min-width: 739px) {
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .home-product-item__free-ship {
+        padding-left: 30px;
+    }
+}
+
