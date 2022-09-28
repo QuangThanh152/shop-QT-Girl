@@ -975,12 +975,13 @@ a.auth-form__Social--facebook,
     padding-left: 0;
     max-width: 100%;
     overflow-x: auto;
+
 }
 .category-mobile__item {
     flex-shrink: 0;
     margin-right: 10px;
 }
-.category-mobile__list::-webkit-scrollbar {
+.category-mobile__item::-webkit-scrollbar {
     display: none;
 }
 .category-mobile__item:nth-of-type(3n + 1) .category-mobile__link{

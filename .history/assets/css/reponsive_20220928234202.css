@@ -118,7 +118,6 @@
     }
     .category-mobile {
         display: block;
-        -webkit-tap-highlight-color: transparent;
     }
 
     .header-sort-bar {

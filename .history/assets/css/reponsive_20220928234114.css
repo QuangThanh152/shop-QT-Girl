@@ -55,7 +55,7 @@
         margin: 5px -5px;
     }
     .app-container {
-        margin-top: -19px;
+        margin-top: 80px;
     }
     .pagination {
         margin-top: 42px;
@@ -118,7 +118,6 @@
     }
     .category-mobile {
         display: block;
-        -webkit-tap-highlight-color: transparent;
     }
 
     .header-sort-bar {

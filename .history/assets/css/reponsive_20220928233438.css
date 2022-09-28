@@ -7,6 +7,9 @@
         display: block;
         margin: 0 15px;
     }
+    .container {
+        margin-top: 100px;
+    }
     .header-search-mobile {
         display: block;
         margin-top: 4px;
@@ -54,9 +57,7 @@
     .header__search-search {
         margin: 5px -5px;
     }
-    .app-container {
-        margin-top: -19px;
-    }
+
     .pagination {
         margin-top: 42px;
     }
@@ -116,11 +117,6 @@
     .container {
         margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
     }
-    .category-mobile {
-        display: block;
-        -webkit-tap-highlight-color: transparent;
-    }
-
     .header-sort-bar {
         display: flex;
     }
